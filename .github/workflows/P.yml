@@ -1,0 +1,74 @@
+name: Auto Build Passwall + Bahasa Indonesia
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *' # Build setiap hari jam 02:00 UTC (optional)
+
+env:
+  TZ: Asia/Jakarta
+  passwall_repo: tes-rep/openwrt-passwall  # Ganti dengan repo fork Anda
+  packages_repo: xiaorouji/openwrt-passwall-packages
+  package_names: "chinadns-ng dns2socks geoview hysteria ipt2socks microsocks naiveproxy tcping trojan-plus tuic-client shadowsocks-rust shadowsocksr-libev simple-obfs sing-box v2ray-geodata v2ray-plugin xray-core xray-plugin shadow-tls luci-i18n-luci-app-passwall-id"
+
+jobs:
+  build_passwall:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential git wget python3 python3-pip libncurses5-dev zlib1g-dev libssl-dev curl unzip xz-utils
+
+      - name: Download OpenWrt SDK
+        run: |
+          wget https://downloads.openwrt.org/releases/24.10.1/targets/x86/64/openwrt-sdk-24.10.1-x86-64_gcc-13.3.0_musl.Linux-x86_64.tar.zst
+          mkdir sdk
+          tar --zstd -x -f openwrt-sdk-24.10.1-x86-64_gcc-13.3.0_musl.Linux-x86_64.tar.zst -C sdk --strip-components=1
+
+      - name: Configure feeds
+        run: |
+          cd sdk
+          cat > feeds.conf.default <<EOF
+          src-git base https://github.com/openwrt/openwrt.git;openwrt-24.10
+          src-git packages https://github.com/openwrt/packages.git;openwrt-24.10
+          src-git luci https://github.com/openwrt/luci.git;openwrt-24.10
+          src-git passwall https://github.com/${{ env.passwall_repo }}.git;main
+          src-git passwall_packages https://github.com/${{ env.packages_repo }}.git;main
+          EOF
+          ./scripts/feeds update -a
+          ./scripts/feeds install -a
+
+      - name: Configure Passwall + Bahasa Indonesia
+        run: |
+          cd sdk
+          echo "CONFIG_PACKAGE_luci-app-passwall=m" > .config
+          echo "CONFIG_PACKAGE_luci-i18n-luci-app-passwall-id=m" >> .config
+          make defconfig
+
+      - name: Compile Passwall
+        run: |
+          cd sdk
+          make package/luci-app-passwall/{clean,compile} -j$(nproc) V=s
+          make package/luci-i18n-luci-app-passwall-id/{clean,compile} -j$(nproc) V=s
+
+      - name: Prepare release files
+        run: |
+          mkdir -p release
+          cp sdk/bin/packages/*/passwall/*.ipk release/
+          cp sdk/bin/packages/*/luci-i18n-luci-app-passwall-id/*.ipk release/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ github.run_number }}
+          name: Passwall Build ${{ github.run_number }}
+          body: "Build Passwall + Bahasa Indonesia"
+          files: release/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
