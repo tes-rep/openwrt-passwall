@@ -1,0 +1,1943 @@
+msgid "Pass Wall"
+msgstr "Passwall"
+
+msgid "Auto"
+msgstr "auto"
+
+msgid "RUNNING"
+msgstr "nyala"
+
+msgid "NOT RUNNING"
+msgstr "Tidak berjalan"
+
+msgid "Working..."
+msgstr "Bekerja..."
+
+msgid "Problem detected!"
+msgstr "Masalah terdeteksi!"
+
+msgid "Touch Check"
+msgstr "Pemeriksaan sentuh"
+
+msgid "Kernel Unsupported"
+msgstr "Kernel tidak didukung"
+
+msgid "Settings"
+msgstr "Pengaturan"
+
+msgid "Main Settings"
+msgstr "Pengaturan utama"
+
+msgid "Basic Settings"
+msgstr "Pengaturan Dasar"
+
+msgid "Node List"
+msgstr "Daftar Node"
+
+msgid "Other Settings"
+msgstr "Pengaturan lainnya"
+
+msgid "Load Balancing"
+msgstr "Load Balancing"
+
+msgid "Enter interface"
+msgstr "Masukkan antarmuka"
+
+msgid "Rule Manage"
+msgstr "Aturan mengelola"
+
+msgid "Rule List"
+msgstr "Daftar aturan"
+
+msgid "Access control"
+msgstr "Kontrol akses"
+
+msgid "Watch Logs"
+msgstr "Tonton Log"
+
+msgid "Node Config"
+msgstr "Konfigurasi simpul"
+
+msgid "Running Status"
+msgstr "Status berjalan"
+
+msgid "Baidu Connection"
+msgstr "Koneksi Baidu"
+
+msgid "Google Connection"
+msgstr "Koneksi Google"
+
+msgid "GitHub Connection"
+msgstr "Koneksi GitHub"
+
+msgid "Instagram Connection"
+msgstr "Koneksi Instagram"
+
+msgid "Node Check"
+msgstr "Pemeriksaan simpul"
+
+msgid "Check..."
+msgstr "Memeriksa..."
+
+msgid "Clear"
+msgstr "Jernih"
+
+msgid "Main switch"
+msgstr "Sakelar utama"
+
+msgid "TCP Node"
+msgstr "Node TCP"
+
+msgid "UDP Node"
+msgstr "Node UDP"
+
+msgid "Edit Current Node"
+msgstr "Edit Node Saat Ini"
+
+msgid "Socks Config"
+msgstr "Konfigurasi kaus kaki"
+
+msgid "Socks Node"
+msgstr "Node kaus kaki"
+
+msgid "Current Node"
+msgstr "Node saat ini"
+
+msgid "Listen Port"
+msgstr "Dengarkan Port"
+
+msgid "0 is not use"
+msgstr "0 tidak digunakan"
+
+msgid "Same as the tcp node"
+msgstr "Sama seperti node TCP"
+
+msgid "Current node: %s"
+msgstr "Node saat ini: %s"
+
+msgid "DNS Shunt"
+msgstr "DNS Shunt"
+
+msgid "Domestic group name"
+msgstr "Nama Grup Domestik"
+
+msgid "You only need to configure domestic DNS packets in SmartDNS and set it redirect or as Dnsmasq upstream, and fill in the domestic DNS group name here."
+msgstr "Anda hanya perlu mengkonfigurasi paket DNS domestik di SmartDNS dan mengaturnya kembali atau sebagai DNSMASQ hulu, dan mengisi nama grup DNS domestik di sini."
+
+msgid "Filter Mode"
+msgstr "Mode filter"
+
+msgid "If the node uses Xray/Sing-Box shunt, select the matching filter mode (Xray/Sing-Box)."
+msgstr "Jika node menggunakan xray/sing-box shunt, pilih mode filter pencocokan (xray/sing-box)."
+
+msgid "A/AAAA type"
+msgstr "Jenis A/AAAA"
+
+msgid "TCP node must be '%s' type to use FakeDNS."
+msgstr "Node TCP harus tipe '%s' untuk menggunakan fakedns."
+
+msgid "Direct DNS"
+msgstr "DNS langsung"
+
+msgid "Direct DNS DoT"
+msgstr "DRET DNS DOT"
+
+msgid "Remote DNS"
+msgstr "DNS jarak jauh"
+
+msgid "Resolver For The List Proxied"
+msgstr "Resolver untuk daftar proksi"
+
+msgid "Requery DNS By %s"
+msgstr "DNS REQUERY oleh %s"
+
+msgid "Socks Server"
+msgstr "Server Socks"
+
+msgid "Misconfigured"
+msgstr "Salah konfigurasi"
+
+msgid "Make sure socks service is available on this address."
+msgstr "Pastikan layanan Socks tersedia di alamat ini."
+
+msgid "%s request address"
+msgstr "Alamat permintaan %s"
+
+msgid "Format must be:"
+msgstr "Format harus:"
+
+msgid "Request protocol"
+msgstr "Meminta protokol"
+
+msgid "Remote DNS DoH"
+msgstr "DNS Remote Doh"
+
+msgid "Remote DNS DoT"
+msgstr "DOT DNS jarak jauh"
+
+msgid "Notify the DNS server when the DNS query is notified, the location of the client (cannot be a private IP address)."
+msgstr "Beri tahu server DNS ketika kueri DNS diberitahu, lokasi klien (tidak dapat berupa alamat IP pribadi)."
+
+msgid "This feature requires the DNS server to support the Edns Client Subnet (RFC7871)."
+msgstr "Fitur ini membutuhkan server DNS untuk mendukung subnet klien EDNS (RFC7871)."
+
+msgid "The effect is better, recommend."
+msgstr "Efeknya lebih baik, rekomendasikan."
+
+msgid "ChinaDNS-NG (recommended)"
+msgstr "Chinadns-ng (direkomendasikan)"
+
+msgid "Default DNS"
+msgstr "DNS default"
+
+msgid "When not matching any domain name list:"
+msgstr "Saat tidak mencocokkan daftar nama domain apa pun:"
+
+msgid "Remote DNS: Can avoid more DNS leaks, but some domestic domain names maybe to proxy!"
+msgstr "DNS jarak jauh: Dapat menghindari lebih banyak kebocoran DNS, tetapi beberapa nama domain domestik mungkin untuk proxy!"
+
+msgid "Direct DNS: Internet experience may be better, but DNS will be leaked!"
+msgstr "DNS Langsung: Pengalaman internet mungkin lebih baik, tetapi DNS akan bocor!"
+
+msgid "Smart, Do not accept no-ip reply from Direct DNS"
+msgstr "Pintar, jangan menerima balasan tidak ada dari DNS langsung"
+
+msgid "Smart, Accept no-ip reply from Direct DNS"
+msgstr "Cerdas, terima balasan NO-IP dari DNS Direct"
+
+msgid "Smart: Forward to both direct and remote DNS, if the direct DNS resolution result is a mainland China IP, then use the direct result, otherwise use the remote result."
+msgstr "Smart: Maju ke DNS langsung dan jarak jauh, jika hasil resolusi DNS langsung adalah IP China daratan, maka gunakan hasil langsung, jika tidak gunakan hasil jarak jauh."
+
+msgid "In smart mode, no-ip reply from Direct DNS:"
+msgstr "Dalam mode pintar, tidak ada balasan dari DNS langsung:"
+
+msgid "Do not accept: Wait and use Remote DNS Reply."
+msgstr "Jangan menerima: tunggu dan gunakan balasan DNS jarak jauh."
+
+msgid "Accept: Trust the Reply, using this option can improve DNS resolution speeds for some mainland IPv4-only sites."
+msgstr "Terima: Percayai balasannya, menggunakan opsi ini dapat meningkatkan kecepatan resolusi DNS untuk beberapa situs khusus IPv4 daratan."
+
+msgid "Filter Proxy Host IPv6"
+msgstr "Filter Proxy Host IPv6"
+
+msgid "Experimental feature."
+msgstr "Fitur eksperimental."
+
+msgid "Use FakeDNS work in the shunt domain that proxy."
+msgstr "Gunakan fakedns bekerja di domain shunt proxy itu."
+
+msgid "Redirect"
+msgstr "Redirect"
+
+msgid "DNS Redirect"
+msgstr "DNS Redirect"
+
+msgid "Force special DNS server to need proxy devices."
+msgstr "Memaksa server DNS khusus untuk membutuhkan perangkat proxy."
+
+msgid "Clear IPSET"
+msgstr "Hapus iPset"
+
+msgid "Clear NFTSET"
+msgstr "Hapus NFTSET"
+
+msgid "DoT Cert verify"
+msgstr "DOT Cert Verifikasi"
+
+msgid "Verify DoT SSL cert. (May fail on some platforms!)"
+msgstr "Verifikasi DOT SSL Cert. (Mungkin gagal di beberapa platform!)"
+
+msgid "Try this feature if the rule modification does not take effect."
+msgstr "Coba fitur ini jika modifikasi aturan tidak berlaku."
+
+msgid "Force HTTPS SOA"
+msgstr "Memaksa https soa"
+
+msgid "Force queries with qtype 65 to respond with an SOA record."
+msgstr "Paksaan kueri dengan QType 65 untuk merespons dengan catatan SOA."
+
+msgid "Are you sure to hide?"
+msgstr "Apakah Anda pasti akan bersembunyi?"
+
+msgid "DNS related issues:"
+msgstr "Masalah terkait DNS:"
+
+msgid "Certain browsers such as Chrome have built-in DNS service, which may affect DNS resolution settings. You can go to 'Settings -> Privacy and security -> Use secure DNS' menu to turn it off."
+msgstr "Browser tertentu seperti Chrome memiliki layanan DNS bawaan, yang dapat mempengaruhi pengaturan resolusi DNS. Anda dapat pergi ke 'Pengaturan -> Privasi dan Keamanan -> Gunakan menu Secure DNS' untuk mematikannya."
+
+msgid "If you are unable to access the internet after reboot, please try clearing the cache of your terminal devices (make sure to close all open browser application windows first, this step is especially important):"
+msgstr "Jika Anda tidak dapat mengakses internet setelah reboot, cobalah membersihkan cache perangkat terminal Anda (pastikan untuk menutup semua jendela aplikasi browser terbuka terlebih dahulu, langkah ini sangat penting):"
+
+msgid "For Windows systems, open Command Prompt and run the command 'ipconfig /flushdns'."
+msgstr "Untuk sistem Windows, buka command prompt dan jalankan perintah 'ipconfig /flushdns'."
+
+msgid "For Mac systems, open Terminal and run the command 'sudo killall -HUP mDNSResponder'."
+msgstr "Untuk sistem MAC, Terminal Terbuka dan jalankan perintah 'Sudo Killall -Hup MdnsResponder'."
+
+msgid "For mobile devices, you can clear it by reconnecting to the network, such as toggling Airplane Mode and reconnecting to WiFi."
+msgstr "Untuk perangkat seluler, Anda dapat menghapusnya dengan menghubungkan kembali ke jaringan, seperti mengubah mode pesawat terbang dan menghubungkan kembali ke WiFi."
+
+msgid "Please make sure your device's network settings point both the DNS server and default gateway to this router, to ensure DNS queries are properly routed."
+msgstr "Pastikan pengaturan jaringan perangkat Anda mengarahkan baik server DNS dan gateway default ke router ini, untuk memastikan kueri DNS dialihkan dengan benar."
+
+msgid "Browser access:"
+msgstr 
+msgid "Hide in main menu:"
+msgstr "Sembunyikan di menu utama:"
+
+msgid "Show in main menu:"
+msgstr "Tampilkan di menu utama:"
+
+msgid "DNS Export Of Multi WAN"
+msgstr "Ekspor DNS Multi Wan"
+
+msgid "Node Export Of Multi WAN"
+msgstr "Ekspor Node Multi Wan"
+
+msgid "Only support Multi Wan."
+msgstr "Hanya mendukung multi wan."
+
+msgid "Not Specify"
+msgstr "Tidak menentukan"
+
+msgid "custom"
+msgstr "kebiasaan"
+
+msgid "Process"
+msgstr "Proses"
+
+msgid "1 Process"
+msgstr 
+msgid "Use %s"
+msgstr "Gunakan %s"
+
+msgid "Close(Not use)"
+msgstr "Tutup (tidak digunakan)"
+
+msgid "Proxy Mode"
+msgstr "Mode proxy"
+
+msgid "Default Proxy Mode"
+msgstr "Mode proxy default"
+
+msgid "No Proxy"
+msgstr "Tidak ada proxy"
+
+msgid "Proxy"
+msgstr "Proxy"
+
+msgid "Global Proxy"
+msgstr "Proxy Global"
+
+msgid "GFW List"
+msgstr 
+msgid "Not China List"
+msgstr "Bukan daftar China"
+
+msgid "China List"
+msgstr 
+msgid "Localhost"
+msgstr "Localhost"
+
+msgid "Switch Mode"
+msgstr "Mode Switch"
+
+msgid "Localhost Proxy"
+msgstr "Proxy Localhost"
+
+msgid "When selected, localhost can transparent proxy."
+msgstr "Saat dipilih, LocalHost dapat transparan proxy."
+
+msgid "Client Proxy"
+msgstr "Proxy Klien"
+
+msgid "When selected, devices in LAN can transparent proxy. Otherwise, it will not be proxy. But you can still use access control to allow the designated device to proxy."
+msgstr "Saat dipilih, perangkat dalam LAN dapat proxy transparan. Kalau tidak, itu tidak akan menjadi proxy. Tetapi Anda masih dapat menggunakan kontrol akses untuk memungkinkan perangkat yang ditunjuk menjadi proxy."
+
+msgid "Want different devices to use different proxy modes/ports/nodes? Please use access control."
+msgstr "Ingin perangkat yang berbeda menggunakan mode/port/node proxy yang berbeda? Harap gunakan kontrol akses."
+
+msgid "Operation"
+msgstr "Operasi"
+
+msgid "Add Node"
+msgstr "Tambahkan Node"
+
+msgid "Add the node via the link"
+msgstr "Tambahkan node melalui tautan"
+
+msgid "Enter share links, one per line. Subscription links are not supported!"
+msgstr "Masukkan tautan berbagi, satu per baris. Tautan berlangganan tidak didukung!"
+
+msgid "Please enter the correct link."
+msgstr "Harap masukkan tautan yang benar."
+
+msgid "Clear all nodes"
+msgstr "Hapus semua node"
+
+msgid "Are you sure to clear all nodes?"
+msgstr "Apakah Anda pasti akan menghapus semua node?"
+
+msgid "Error"
+msgstr "Kesalahan"
+
+msgid "Delete select nodes"
+msgstr "Hapus Node Pilih"
+
+msgid "To Top"
+msgstr "Ke atas"
+
+msgid "Select"
+msgstr "Memilih"
+
+msgid "DeSelect"
+msgstr "Batalkan pilihan"
+
+msgid "Select all"
+msgstr "Pilih semua"
+
+msgid "DeSelect all"
+msgstr "Batalkan pilihan semua"
+
+msgid "Are you sure to delete select nodes?"
+msgstr "Apakah Anda pasti akan menghapus node tertentu?"
+
+msgid "You no select nodes !"
+msgstr "Anda tidak memilih node!"
+
+msgid "Are you sure set to"
+msgstr "Apakah Anda yakin siap"
+
+msgid "the server?"
+msgstr "server?"
+
+msgid "You choose node is:"
+msgstr "Anda memilih simpul adalah:"
+
+msgid "Timeout"
+msgstr "Batas waktu"
+
+msgid "Node Remarks"
+msgstr "Keterangan Node"
+
+msgid "Add Mode"
+msgstr "Tambahkan mode"
+
+msgid "Type"
+msgstr "Jenis"
+
+msgid "_balancing"
+msgstr "_Balancing"
+
+msgid "_shunt"
+msgstr "_melangsir"
+
+msgid "_iface"
+msgstr "_iface"
+
+msgid "Balancing"
+msgstr "Menyeimbangkan"
+
+msgid "Balancing Strategy"
+msgstr "Strategi penyeimbangan"
+
+msgid "Fallback Node"
+msgstr "Node Fallback"
+
+msgid "Use Custom Probe URL"
+msgstr "Gunakan URL Probe Kustom"
+
+msgid "By default the built-in probe URL will be used, enable this option to use a custom probe URL."
+msgstr "Secara default URL probe bawaan akan digunakan, aktifkan opsi ini untuk menggunakan URL probe khusus."
+
+msgid "Probe URL"
+msgstr "URL penyelidikan"
+
+msgid "The URL used to detect the connection status."
+msgstr "URL yang digunakan untuk mendeteksi status koneksi."
+
+msgid "Probe Interval"
+msgstr "Interval penyelidikan"
+
+msgid "The interval between initiating probes."
+msgstr "Interval antara probe inisiasi."
+
+msgid "The time format is numbers + units, such as '10s', '2h45m', and the supported time units are <code>s</code>, <code>m</code>, <code>h</code>, which correspond to seconds, minutes, and hours, respectively."
+msgstr "Format waktu adalah angka + unit, seperti '10s', '2h45m', dan unit waktu yang didukung adalah <code> s </code>, <code> m </code>, <code> h </code>, yang masing -masing sesuai dengan detik, menit, dan jam, masing -masing."
+
+msgid "When the unit is not filled in, it defaults to seconds."
+msgstr "Ketika unit tidak diisi, itu default ke detik."
+
+msgid "Preferred Node Count"
+msgstr "Jumlah simpul yang disukai"
+
+msgid "The load balancer selects the optimal number of nodes, and traffic is randomly distributed among them."
+msgstr "Penyeimbang beban memilih jumlah node yang optimal, dan lalu lintas didistribusikan secara acak di antara mereka."
+
+msgid "Shunt"
+msgstr "Melangsir"
+
+msgid "Preproxy"
+msgstr "Praproksi"
+
+msgid "Preproxy Node"
+msgstr "Node praproksi"
+
+msgid "Set the node to be used as a pre-proxy. Each rule (including <code>Default</code>) has a separate switch that controls whether this rule uses the pre-proxy or not."
+msgstr "Atur node yang akan digunakan sebagai pra-proxy. Setiap aturan (termasuk <code> default </code>) memiliki sakelar terpisah yang mengontrol apakah aturan ini menggunakan pra-proxy atau tidak."
+
+msgid "Direct Connection"
+msgstr "Koneksi langsung"
+
+msgid "Blackhole"
+msgstr "Blackhole"
+
+msgid "Default Preproxy"
+msgstr "Praproksi default"
+
+msgid "There are no available nodes, please add or subscribe nodes first."
+msgstr "Tidak ada node yang tersedia, silakan tambahkan atau berlangganan node terlebih dahulu."
+
+msgid "No shunt rules? Click me to go to add."
+msgstr "Tidak ada aturan shunt? Klik saya untuk ditambahkan."
+
+msgid "When using, localhost will connect this node first and then use this node to connect the default node."
+msgstr "Saat menggunakan, LocalHost akan menghubungkan node ini terlebih dahulu dan kemudian menggunakan node ini untuk menghubungkan simpul default."
+
+msgid "Domain Strategy"
+msgstr "Strategi domain"
+
+msgid "Domain matcher"
+msgstr "Pencocokan domain"
+
+msgid "'AsIs': Only use domain for routing. Default value."
+msgstr "'ASIS': Hanya gunakan domain untuk perutean. Nilai default."
+
+msgid "'IPIfNonMatch': When no rule matches current domain, resolves it into IP "addresses (A or AAAA records) and try all rules again."
+msgstr "'IpifnonMatch': Ketika tidak ada aturan yang cocok dengan domain saat ini, menyelesaikannya menjadi alamat IP (catatan A atau AAAA) dan coba semua aturan lagi."
+
+msgid "'IPOnDemand': As long as there is a IP-based rule, resolves the domain into IP immediately."
+msgstr "'Ipondemand': Selama ada aturan berbasis IP, menyelesaikan domain menjadi IP segera."
+
+msgid "Prefer IPv4"
+msgstr "Lebih suka ipv4"
+
+msgid "Prefer IPv6"
+msgstr "Lebih suka ipv6"
+
+msgid "IPv4 Only"
+msgstr "IPv4 saja"
+
+msgid "IPv6 Only"
+msgstr "IPv6 saja"
+
+msgid "Load balancing node list"
+msgstr "Muat daftar simpul penyeimbang"
+
+msgid "Load balancing node list, <a target='_blank' href='https://xtls.github.io/config/routing.html#balancerobject'>document</a>"
+msgstr "Load Balancing Node List, <a target = '_ blank' href = 'https: //xtls.github.io/config/routing.html#balancerobject'> dokumen </a>"
+
+msgid "From Share URL"
+msgstr "Dari saham URL"
+
+msgid "Build Share URL"
+msgstr "Bangun URL Bagikan"
+
+msgid "Generate QRCode"
+msgstr "Hasilkan QRCode"
+
+msgid "Export Config File"
+msgstr "Ekspor file konfigurasi"
+
+msgid "Import Finished"
+msgstr "Impor selesai"
+
+msgid "Not a supported scheme:"
+msgstr "Bukan skema yang didukung:"
+
+msgid "Invalid Share URL Format"
+msgstr "Format URL berbagi tidak valid"
+
+msgid "Paste Share URL Here"
+msgstr "Tempel Bagikan URL di sini"
+
+msgid "Share URL to clipboard unable."
+msgstr "Bagikan URL ke clipboard tidak bisa."
+
+msgid "Share URL to clipboard successfully."
+msgstr "Bagikan URL ke Clipboard dengan sukses."
+
+msgid "Faltal on get option, please help in debug:"
+msgstr "Faltal on get opsi, tolong bantu di debug:"
+
+msgid "Faltal on set option, please help in debug:"
+msgstr "Opsi Faltal on Set, tolong bantu di Debug:"
+
+msgid "Address"
+msgstr "Alamat"
+
+msgid "Address (Support Domain Name)"
+msgstr "Alamat (nama domain dukungan)"
+
+msgid "Trojan Verify Cert"
+msgstr "Trojan memverifikasi sertifikat"
+
+msgid "Trojan Cert Path"
+msgstr "Trojan Cert Path"
+
+msgid "Finger Print"
+msgstr "Cetak jari"
+
+msgid "Avoid using randomized, unless you have to."
+msgstr "Hindari menggunakan acak, kecuali Anda harus."
+
+msgid "Original"
+msgstr "Asli"
+
+msgid "Transport Plugin"
+msgstr "Plugin transportasi"
+
+msgid "Shadowsocks secondary encryption"
+msgstr "Enkripsi Sekunder Shadowsocks"
+
+msgid "Obfs Type"
+msgstr "Jenis OBFS"
+
+msgid "Obfs Password"
+msgstr "OBFS Kata Sandi"
+
+msgid "Auth Type"
+msgstr "Tipe auth"
+
+msgid "Auth Password"
+msgstr "Kata sandi auth"
+
+msgid "Commands the client to use the BBR flow control algorithm"
+msgstr "Memerintahkan klien untuk menggunakan algoritma kontrol aliran BBR"
+
+msgid "PinSHA256"
+msgstr "Pinsha256"
+
+msgid "Certificate fingerprint"
+msgstr "Sidik jari sertifikat"
+
+msgid "Max upload Mbps"
+msgstr "Max Unggah Mbps"
+
+msgid "Max download Mbps"
+msgstr "Max Unduh MBPS"
+
+msgid "QUIC stream receive window"
+msgstr "Quic stream menerima jendela"
+
+msgid "QUIC connection receive window"
+msgstr "Koneksi Quic Receed Window"
+
+msgid "QUIC concurrent bidirectional streams"
+msgstr "Aliran dua arah bersamaan quic"
+
+msgid "Disable MTU detection"
+msgstr "Nonaktifkan deteksi MTU"
+
+msgid "ignoreClientBandwidth"
+msgstr "Ignoreclientbandwidth"
+
+msgid "Lazy Start"
+msgstr "Mulai malas"
+
+msgid "Encrypt Method"
+msgstr "Metode enkripsi"
+
+msgid "Latency"
+msgstr "Latensi"
+
+msgid "Automatic detection delay"
+msgstr "Penundaan Deteksi Otomatis"
+
+msgid "Show server address and port"
+msgstr "Tampilkan alamat server dan port"
+
+msgid "URL Test"
+msgstr "Tes URL"
+
+msgid "Test"
+msgstr "Tes"
+
+msgid "Node num"
+msgstr "Node num"
+
+msgid "Self add"
+msgstr "Tambah Diri"
+
+msgid "Apply"
+msgstr "Menerapkan"
+
+msgid "Use"
+msgstr "Menggunakan"
+
+msgid "Copy"
+msgstr "Menyalin"
+
+msgid "Delay Settings"
+msgstr "Pengaturan tunda"
+
+msgid "Open and close Daemon"
+msgstr "Buka dan Tutup Daemon"
+
+msgid "Delay Start"
+msgstr "Tunda Mulai"
+
+msgid "Units:seconds"
+msgstr "Unit: detik"
+
+msgid "Units:minutes"
+msgstr "Unit: Menit"
+
+msgid "stop automatically mode"
+msgstr "Hentikan Mode Secara Otomatis"
+
+msgid "stop Time(Every day)"
+msgstr "berhenti waktu (setiap hari)"
+
+msgid "stop Interval(Hour)"
+msgstr "berhenti interval (jam)"
+
+msgid "start automatically mode"
+msgstr "Mulai mode secara otomatis"
+
+msgid "start Time(Every day)"
+msgstr "waktu mulai (setiap hari)"
+
+msgid "start Interval(Hour)"
+msgstr "Mulai interval (jam)"
+
+msgid "restart automatically mode"
+msgstr "restart secara otomatis mode"
+
+msgid "restart Time(Every day)"
+msgstr "restart waktu (setiap hari)"
+
+msgid "restart Interval(Hour)"
+msgstr "restart interval (jam)"
+
+msgid "Forwarding Settings"
+msgstr "Pengaturan Penerusan"
+
+msgid "TCP No Redir Ports"
+msgstr "TCP No Redir Ports"
+
+msgid "UDP No Redir Ports"
+msgstr "UDP no port redir"
+
+msgid "Fill in the ports you don't want to be forwarded by the agent, with the highest priority."
+msgstr "Isi port yang Anda tidak ingin diteruskan oleh agen, dengan prioritas tertinggi."
+
+msgid "The port settings support single ports and ranges.<br>Separate multiple ports with commas (,).<br>Example: 21,80,443,1000:2000."
+msgstr "Pengaturan port mendukung port dan rentang tunggal. <br> Pisahkan beberapa port dengan koma (,). <br> Contoh: 21.80.443.1000: 2000."
+
+msgid "TCP Proxy Drop Ports"
+msgstr "Port drop proxy TCP"
+
+msgid "UDP Proxy Drop Ports"
+msgstr "Port drop proxy UDP"
+
+msgid "TCP Redir Ports"
+msgstr "Port Redir TCP"
+
+msgid "UDP Redir Ports"
+msgstr "Port Redir UDP"
+
+msgid "No patterns are used"
+msgstr "Tidak ada pola yang digunakan"
+
+msgid "All"
+msgstr "Semua"
+
+msgid "Common Use"
+msgstr "Penggunaan umum"
+
+msgid "Only Web"
+msgstr "Hanya web"
+
+msgid "Default"
+msgstr "Bawaan"
+
+msgid "Close"
+msgstr "Menutup"
+
+msgid "Hijacking ICMP (PING)"
+msgstr "Pembajakan ICMP (Ping)"
+
+msgid "Hijacking ICMPv6 (IPv6 PING)"
+msgstr "Membajak ICMPV6 (IPv6 Ping)"
+
+msgid "Sniffing"
+msgstr "Mengendus"
+
+msgid "TCP Proxy Way"
+msgstr "Cara proxy TCP"
+
+msgid "Proxy Settings"
+msgstr "Pengaturan Proxy"
+
+msgid "Auto Switch"
+msgstr "Sakelar otomatis"
+
+msgid "How often to test"
+msgstr "Seberapa sering menguji"
+
+msgid "Timeout seconds"
+msgstr "Detik waktu habis"
+
+msgid "Timeout retry num"
+msgstr "Batas waktu coba lagi num"
+
+msgid "Main node"
+msgstr "Simpul utama"
+
+msgid "List of backup nodes"
+msgstr "Daftar Node Cadangan"
+
+msgid "Restore Switch"
+msgstr "Kembalikan sakelar"
+
+msgid "When detects main node is available, switch back to the main node."
+msgstr "Ketika mendeteksi simpul utama tersedia, beralih kembali ke simpul utama."
+
+msgid "If the main node is V2ray/Xray shunt"
+msgstr "Jika simpul utama adalah v2ray/xray shunt"
+
+msgid "Switch it"
+msgstr "Beralihnya"
+
+msgid "Applying to the default node"
+msgstr "Menerapkan ke node default"
+
+msgid "Applying to the preproxy node"
+msgstr "Menerapkan ke node praproksi"
+
+msgid "Add nodes to the standby node list by keywords"
+msgstr "Tambahkan node ke daftar node siaga dengan kata kunci"
+
+msgid "Delete nodes in the standby node list by keywords"
+msgstr "Hapus node dalam daftar node siaga dengan kata kunci"
+
+msgid "Please enter the node keyword, pay attention to distinguish between spaces, uppercase and lowercase."
+msgstr "Harap masukkan kata kunci simpul, perhatikan membedakan antara spasi, huruf besar dan huruf kecil."
+
+msgid "Configure this node with 127.0.0.1: this port"
+msgstr "Konfigurasikan node ini dengan 127.0.0.1: port ini"
+
+msgid "Enable Load Balancing"
+msgstr "Aktifkan penyeimbangan beban"
+
+msgid "Console Login Auth"
+msgstr "Auth login konsol"
+
+msgid "Console Username"
+msgstr "Konsol Nama Pengguna"
+
+msgid "Console Password"
+msgstr "Kata Sandi Konsol"
+
+msgid "Console Port"
+msgstr "Port konsol"
+
+msgid "In the browser input routing IP plus port access, such as:192.168.1.1:1188"
+msgstr "Di Browser Input Routing IP Plus Port Access, seperti: 192.168.1.1: 1188"
+
+msgid "Haproxy Port"
+msgstr "Port Haproxy"
+
+msgid "Health Check Type"
+msgstr "Jenis Periksa Kesehatan"
+
+msgid "Inner implement"
+msgstr "Implement dalam"
+
+msgid "Health Check Inter"
+msgstr "Periksa Kesehatan Inter"
+
+msgid "When the URL test is used, the load balancing node will be converted into a Socks node. when node list set customizing, must be a Socks node, otherwise the health check will be invalid."
+msgstr "Ketika uji URL digunakan, simpul penyeimbang beban akan dikonversi menjadi simpul kaus kaki. Saat daftar simpul yang disesuaikan, harus berupa simpul kaus kaki, jika tidak pemeriksaan kesehatan tidak valid."
+
+msgid "Add a node, Export Of Multi WAN Only support Multi Wan. Load specific gravity range 1-256. Multiple primary servers can be load balanced, standby will only be enabled when the primary server is offline! Multiple groups can be set, Haproxy port same one for each group."
+msgstr "Tambahkan node, ekspor multi wan hanya mendukung multi wan. Muat kisaran gravitasi spesifik 1-256. Beberapa server primer dapat berupa beban seimbang, siaga hanya akan diaktifkan ketika server utama offline! Beberapa grup dapat diatur, port haproxy yang sama untuk setiap grup."
+
+msgid "Note that the node configuration parameters for load balancing must be consistent when use TCP health check type, otherwise it cannot be used normally!"
+msgstr "Perhatikan bahwa parameter konfigurasi simpul untuk penyeimbangan beban harus konsisten saat menggunakan tipe pemeriksaan kesehatan TCP, jika tidak, itu tidak dapat digunakan secara normal!"
+
+msgid "Node"
+msgstr "Node"
+
+msgid "Node Address"
+msgstr "Alamat simpul"
+
+msgid "Node Port"
+msgstr "Port simpul"
+
+msgid "Node Weight"
+msgstr "Berat simpul"
+
+msgid "Export Of Multi WAN"
+msgstr "Ekspor Multi Wan"
+
+msgid "Main"
+msgstr "Utama"
+
+msgid "Mode"
+msgstr "Mode"
+
+msgid "Primary"
+msgstr "Utama"
+
+msgid "Standby"
+msgstr "Siaga"
+
+msgid "Check update"
+msgstr "Periksa pembaruan"
+
+msgid "Force update"
+msgstr "UPDATE FORCE"
+
+msgid "Manually update"
+msgstr "Perbarui secara manual"
+
+msgid "The latest version: %s, currently does not support automatic update, if you need to update, please compile or download the ipk and then manually install."
+msgstr "Versi terbaru: %s, saat ini tidak mendukung pembaruan otomatis, jika Anda perlu memperbarui, silakan kompilasi atau unduh IPK dan kemudian instal secara manual."
+
+msgid "Enable custom URL"
+msgstr "Aktifkan URL khusus"
+
+msgid "GFW domains(gfwlist) Update URL"
+msgstr "URL Perbarui Domain GFW (GFWList)"
+
+msgid "China IPs(chnroute) Update URL"
+msgstr "URL Perbarui China IPS (CHNROUTE)"
+
+msgid "China IPv6s(chnroute6) Update URL"
+msgstr "URL Perbarui China IPv6s (CHNROUTE6)"
+
+msgid "China List(Chnlist) Update URL"
+msgstr "URL Perbarui Daftar China (CHNList)"
+
+msgid "Rule status"
+msgstr "Status aturan"
+
+msgid "Enable auto update rules"
+msgstr "Aktifkan Aturan Pembaruan Otomatis"
+
+msgid "Update Time(every day)"
+msgstr "Perbarui waktu (setiap hari)"
+
+msgid "Update Interval(hour)"
+msgstr "Perbarui interval (jam)"
+
+msgid "Update Mode"
+msgstr "Mode Perbarui"
+
+msgid "Loop Mode"
+msgstr "Mode loop"
+
+msgid "Every day"
+msgstr "Setiap hari"
+
+msgid "Every Monday"
+msgstr "Setiap hari Senin"
+
+msgid "Every Tuesday"
+msgstr "Setiap hari Selasa"
+
+msgid "Every Wednesday"
+msgstr "Setiap hari Rabu"
+
+msgid "Every Thursday"
+msgstr "Setiap hari Kamis"
+
+msgid "Every Friday"
+msgstr "Setiap hari Jumat"
+
+msgid "Every Saturday"
+msgstr "Setiap hari Sabtu"
+
+msgid "Every Sunday"
+msgstr "Setiap hari Minggu"
+
+msgid "hour"
+msgstr "jam"
+
+msgid "Hour"
+msgstr "Jam"
+
+msgid "GeoIP Update URL"
+msgstr "URL Pembaruan Geoip"
+
+msgid "Geosite Update URL"
+msgstr "URL Pembaruan Geosite"
+
+msgid "Location of Geo rule files"
+msgstr "Lokasi file aturan geo"
+
+msgid "This variable specifies a directory where geoip.dat and geosite.dat files are."
+msgstr "Variabel ini menentukan direktori di mana file geoip.dat dan geosite.dat."
+
+msgid "Generate Rule List from Geo"
+msgstr "Hasilkan Daftar Aturan dari Geo"
+
+msgid "Generate rule lists such as GFW, China domains, and China IP ranges based on Geo files."
+msgstr "Hasilkan daftar aturan seperti GFW, Domain Cina, dan rentang IP Cina berdasarkan file GEO."
+
+msgid "Enable Geo Data Parsing"
+msgstr "Aktifkan Parsing Data GEO"
+
+msgid "Analyzes and preloads GeoIP/Geosite data to enhance the shunt performance of Sing-box/Xray."
+msgstr "Analisis dan data preloads geoip/geosite untuk meningkatkan kinerja shunt Sing-box/xray."
+
+msgid "Once enabled, the rule list can support GeoIP/Geosite rules."
+msgstr "Setelah diaktifkan, daftar aturan dapat mendukung aturan geoip/geosite."
+
+msgid "Note: Increases resource usage; Geosite analysis is only supported in ChinaDNS-NG and SmartDNS modes."
+msgstr "Catatan: Meningkatkan penggunaan sumber daya; Analisis Geosite hanya didukung dalam mode Chinadns-NG dan SmartDNS."
+
+msgid "Shunt Rule"
+msgstr "Aturan shunt"
+
+msgid "Please note attention to the priority, the higher the order, the higher the priority."
+msgstr "Harap perhatikan prioritas, semakin tinggi pesanan, semakin tinggi prioritasnya."
+
+msgid "Update..."
+msgstr "Memperbarui..."
+
+msgid "It is the latest version"
+msgstr "Ini adalah versi terbaru"
+
+msgid "Update successful"
+msgstr "Perbarui berhasil"
+
+msgid "Click to update"
+msgstr "Klik untuk memperbarui"
+
+msgid "Updating..."
+msgstr "Memperbarui ..."
+
+msgid "Retry"
+msgstr "Mencoba kembali"
+
+msgid "Unexpected error"
+msgstr "Kesalahan tak terduga"
+
+msgid "Updating, are you sure to close?"
+msgstr "Memperbarui, apakah Anda pasti akan menutup?"
+
+msgid "Downloading..."
+msgstr "Mengunduh ..."
+
+msgid "Unpacking..."
+msgstr "Membongkar ..."
+
+msgid "Moving..."
+msgstr "Bergerak ..."
+
+msgid "App Update"
+msgstr "Pembaruan Aplikasi"
+
+msgid "Please confirm that your firmware supports FPU."
+msgstr "Harap konfirmasi bahwa firmware Anda mendukung FPU."
+
+msgid "if you want to run from memory, change the path, /tmp beginning then save the application and update it manually."
+msgstr "Jika Anda ingin menjalankan dari memori, ubah jalur, /TMP mulai maka simpan aplikasi dan perbarui secara manual."
+
+msgid "Make sure there is enough space to install %s"
+msgstr "Pastikan ada cukup ruang untuk menginstal %s"
+
+msgid "App Path"
+msgstr "Jalur aplikasi"
+
+msgid "%s App Path"
+msgstr "Path Aplikasi %S."
+
+msgid "%s Client App Path"
+msgstr "Path Aplikasi Klien %S"
+
+msgid "alternate API URL for version checking"
+msgstr "URL API Alternatif untuk Pemeriksaan Versi"
+
+msgid "Node Subscribe"
+msgstr "Node Berlangganan"
+
+msgid "Subscribe Remark"
+msgstr "Berlangganan komentar"
+
+msgid "Subscribe Info"
+msgstr "Berlangganan info"
+
+msgid "Subscribe URL"
+msgstr "Berlangganan URL"
+
+msgid "Subscribe URL Access Method"
+msgstr "Berlangganan metode akses URL"
+
+msgid "When adding a new subscription, please save and apply before manually subscribing. If you only change the subscription URL, you can subscribe manually, and the system will save it automatically."
+msgstr "Saat menambahkan langganan baru, simpan dan terapkan sebelum berlangganan secara manual. Jika Anda hanya mengubah URL berlangganan, Anda dapat berlangganan secara manual, dan sistem akan menyimpannya secara otomatis."
+
+msgid "Please save and apply before manually subscribing."
+msgstr "Harap simpan dan lamar sebelum berlangganan secara manual."
+
+msgid "Subscribe URL cannot be empty."
+msgstr "Berlangganan URL tidak bisa kosong."
+
+msgid "Subscribe via proxy"
+msgstr "Berlangganan melalui proxy"
+
+msgid "Enable auto update subscribe"
+msgstr "Aktifkan Pembaruan Otomatis Berlangganan"
+
+msgid "Manual subscription"
+msgstr "Langganan Manual"
+
+msgid "Delete All Subscribe Node"
+msgstr "Hapus semua node berlangganan"
+
+msgid "Delete the subscribed node"
+msgstr "Hapus simpul yang berlangganan"
+
+msgid "Are you sure you want to delete all subscribed nodes?"
+msgstr "Anda yakin ingin menghapus semua node yang berlangganan?"
+
+msgid "Manual subscription All"
+msgstr "Berlangganan manual semua"
+
+msgid "This remark already exists, please change a new remark."
+msgstr "Pernyataan ini sudah ada, tolong ubah komentar baru."
+
+msgid "Filter keyword Mode"
+msgstr "Mode Kata Kunci Filter"
+
+msgid "Discard List"
+msgstr "Daftar Buang"
+
+msgid "Keep List"
+msgstr "Simpan daftar"
+
+msgid "Discard List,But Keep List First"
+msgstr "Buang daftar, tapi simpan daftar terlebih dahulu"
+
+msgid "Keep List,But Discard List First"
+msgstr "Simpan daftar, tapi buang daftar dulu"
+
+msgid "Use global config"
+msgstr "Gunakan Global Config"
+
+msgid "User-Agent"
+msgstr "Agen pengguna"
+
+msgid "Add"
+msgstr "Menambahkan"
+
+msgid "ACLs"
+msgstr "ACLS"
+
+msgid "ACLs is a tools which used to designate specific IP proxy mode."
+msgstr "ACLS adalah alat yang digunakan untuk menunjuk mode proxy IP tertentu."
+
+msgid "Example:"
+msgstr "Contoh:"
+
+msgid "IP range"
+msgstr "Rentang IP"
+
+msgid "Source Interface"
+msgstr "Antarmuka sumber"
+
+msgid "Use Interface With ACLs"
+msgstr "Gunakan antarmuka dengan ACLS"
+
+msgid "Remarks"
+msgstr "Perkataan"
+
+msgid "Direct List"
+msgstr "Daftar Langsung"
+
+msgid "Proxy List"
+msgstr "Daftar proxy"
+
+msgid "Block List"
+msgstr "Daftar blok"
+
+msgid "Lan IP List"
+msgstr "Daftar IP LAN"
+
+msgid "Route Hosts"
+msgstr "Host Rute"
+
+msgid "Join the direct hosts list of domain names will not proxy."
+msgstr "Bergabunglah dengan daftar host langsung nama domain tidak akan proxy."
+
+msgid "These had been joined ip addresses will not proxy. Please input the ip address or ip address segment,every line can input only one ip address. For example: 192.168.0.0/24 or 223.5.5.5."
+msgstr "Ini telah bergabung dengan alamat IP tidak akan proxy. Harap masukkan alamat IP atau segmen alamat IP, setiap baris hanya dapat memasukkan satu alamat IP. Misalnya: 192.168.0.0/24 atau 223.5.5.5."
+
+msgid "These had been joined websites will use proxy. Please input the domain names of websites, every line can input only one website domain. For example: google.com."
+msgstr "Ini telah bergabung dengan situs web akan menggunakan proxy. Harap masukkan nama domain situs web, setiap baris hanya dapat memasukkan satu domain situs web. Misalnya: Google.com."
+
+msgid "These had been joined ip addresses will use proxy. Please input the ip address or ip address segment, every line can input only one ip address. For example: 35.24.0.0/24 or 8.8.4.4."
+msgstr "Ini telah bergabung dengan alamat IP akan menggunakan proxy. Harap masukkan alamat IP atau segmen alamat IP, setiap baris hanya dapat memasukkan satu alamat IP. Misalnya: 35.24.0.0/24 atau 8.8.4.4."
+
+msgid "These had been joined websites will be block. Please input the domain names of websites, every line can input only one website domain. For example: twitter.com."
+msgstr "Ini telah bergabung dengan situs web akan menjadi blok. Harap masukkan nama domain situs web, setiap baris hanya dapat memasukkan satu domain situs web. Misalnya: Twitter.com."
+
+msgid "The list is the IPv4 LAN IP list, which represents the direct connection IP of the LAN. If you need the LAN IP in the proxy list, please clear it from the list. Do not modify this list by default."
+msgstr "Daftar ini adalah daftar IP IPv4 LAN, yang mewakili IP koneksi langsung LAN. Jika Anda memerlukan IP LAN di daftar proxy, harap hapus dari daftar. Jangan memodifikasi daftar ini secara default."
+
+msgid "The list is the IPv6 LAN IP list, which represents the direct connection IP of the LAN. If you need the LAN IP in the proxy list, please clear it from the list. Do not modify this list by default."
+msgstr "Daftar ini adalah daftar IP IPv6 LAN, yang mewakili IP koneksi langsung LAN. Jika Anda memerlukan IP LAN di daftar proxy, harap hapus dari daftar. Jangan memodifikasi daftar ini secara default."
+
+msgid "Configure routing etc/hosts file, if you don't know what you are doing, please don't change the content."
+msgstr "Mengkonfigurasi file routing etc/hosts, jika Anda tidak tahu apa yang Anda lakukan, tolong jangan ubah kontennya."
+
+msgid "These had been joined ip addresses will be block. Please input the ip address or ip address segment, every line can input only one ip address."
+msgstr "Ini telah bergabung dengan alamat IP akan menjadi blok. Harap masukkan alamat IP atau segmen alamat IP, setiap baris hanya dapat memasukkan satu alamat IP."
+
+msgid "Inbound Tag"
+msgstr "Tag masuk"
+
+msgid "Transparent proxy"
+msgstr "Proxy transparan"
+
+msgid "Not valid domain name, please re-enter!"
+msgstr "Bukan nama domain yang valid, mohon masukkan kembali!"
+
+msgid "Not valid IP format, please re-enter!"
+msgstr "Bukan format IP yang valid, mohon masukkan kembali!"
+
+msgid "Not valid IPv4 format, please re-enter!"
+msgstr "Bukan format IPv4 yang valid, mohon masukkan kembali!"
+
+msgid "Not valid IPv6 format, please re-enter!"
+msgstr "Bukan format IPv6 yang valid, mohon masukkan kembali!"
+
+msgid "Not true format, please re-enter!"
+msgstr "Bukan format yang benar, mohon masukkan kembali!"
+
+msgid "Plaintext: If this string matches any part of the targeting domain, this rule takes effet. Example: rule 'sina.com' matches targeting domain 'sina.com', 'sina.com.cn' and 'www.sina.com', but not 'sina.cn'."
+msgstr "Plaintext: Jika string ini cocok dengan bagian mana pun dari domain penargetan, aturan ini mengambil EFFET. Contoh: Aturan 'Sina.com' cocok dengan domain penargetan 'Sina.com', 'Sina.com.cn' dan 'www.sina.com', tetapi bukan 'Sina.cn'."
+
+msgid "Regular expression: Begining with 'regexp:', the rest is a regular expression. When the regexp matches targeting domain, this rule takes effect. Example: rule 'regexp:\\.goo.*\\.com$' matches 'www.google.com' and 'fonts.googleapis.com', but not 'google.com'."
+msgstr "Ekspresi reguler: Mulai dengan 'regexp:', sisanya adalah ekspresi reguler. Ketika RegExp cocok dengan domain penargetan, aturan ini berlaku. Contoh: aturan 'regexp: \\. Goo.*\\. Com $' cocok 'www.google.com' dan 'fonts.googleapis.com', tetapi bukan 'google.com'."
+
+msgid "Subdomain (recommended): Begining with 'domain:' and the rest is a domain. When the targeting domain is exactly the value, or is a subdomain of the value, this rule takes effect. Example: rule 'domain:v2ray.com' matches 'www.v2ray.com', 'v2ray.com', but not 'xv2ray.com'."
+msgstr "Subdomain (disarankan): Mulai dengan 'domain:' dan sisanya adalah domain. Ketika domain penargetan adalah nilai persis, atau merupakan subdomain dari nilai, aturan ini berlaku. Contoh: aturan 'domain: v2ray.com' cocok 'www.v2ray.com', 'v2ray.com', tetapi bukan 'xv2ray.com'."
+
+msgid "Full domain: Begining with 'full:' and the rest is a domain. When the targeting domain is exactly the value, the rule takes effect. Example: rule 'domain:v2ray.com' matches 'v2ray.com', but not 'www.v2ray.com'."
+msgstr "Domain Penuh: Mulai dengan 'penuh:' dan sisanya adalah domain. Ketika domain penargetan adalah nilainya, aturan mulai berlaku. Contoh: aturan 'domain: v2ray.com' cocok 'v2ray.com', tetapi bukan 'www.v2ray.com'."
+
+msgid "Pre-defined domain list: Begining with 'geosite:' and the rest is a name, such as geosite:google or geosite:cn."
+msgstr "Daftar domain yang telah ditentukan: Mulai dengan 'geosite:' dan sisanya adalah nama, seperti geosite: google atau geosite: cn."
+
+msgid "Annotation: Begining with #"
+msgstr "Anotasi: Mulai dengan #"
+
+msgid "IP: such as '127.0.0.1'."
+msgstr "IP: seperti '127.0.0.1'."
+
+msgid "CIDR: such as '127.0.0.0/8'."
+msgstr "CIDR: seperti '127.0.0.0/8'."
+
+msgid "GeoIP: such as 'geoip:cn'. It begins with geoip: (lower case) and followed by two letter of country code."
+msgstr "Geoip: seperti 'Geoip: CN'. Dimulai dengan Geoip: (Kasus Militer) dan diikuti oleh dua huruf Kode Negara."
+
+msgid "Clear logs"
+msgstr "Log Hapus"
+
+msgid "Only recommend to use with VLESS-TCP-XTLS-Vision."
+msgstr "Hanya merekomendasikan untuk digunakan dengan VLLESS-TCP-XTLS-Vision."
+
+msgid "Password"
+msgstr "Kata sandi"
+
+msgid "IV Check"
+msgstr "Periksa IV"
+
+msgid "UDP over TCP"
+msgstr "UDP melalui TCP"
+
+msgid "Connection Timeout"
+msgstr "Batas waktu koneksi"
+
+msgid "Local Port"
+msgstr "Pelabuhan lokal"
+
+msgid "Fast Open"
+msgstr "Terbuka cepat"
+
+msgid "Need node support required"
+msgstr "Butuh dukungan simpul"
+
+msgid "plugin"
+msgstr "plugin"
+
+msgid "Supports custom SIP003 plugins, Make sure the plugin is installed."
+msgstr "Mendukung plugin SIP003 khusus, pastikan plugin diinstal."
+
+msgid "opts"
+msgstr "memilih"
+
+msgid "Protocol"
+msgstr "Protokol"
+
+msgid "Protocol_param"
+msgstr "Protocol_param"
+
+msgid "Obfs"
+msgstr "OBFS"
+
+msgid "Obfs_param"
+msgstr "OBFS_PARAM"
+
+msgid "Plugin Name"
+msgstr "Nama plugin"
+
+msgid "Plugin Arguments"
+msgstr "Argumen plugin"
+
+msgid "Naiveproxy Protocol"
+msgstr "Protokol naifproxy"
+
+msgid "V2ray Protocol"
+msgstr "Protokol V2Ray"
+
+msgid "User Level"
+msgstr "Tingkat Pengguna"
+
+msgid "Transport"
+msgstr "Mengangkut"
+
+msgid "Public Key"
+msgstr "Kunci publik"
+
+msgid "Private Key"
+msgstr "Kunci pribadi"
+
+msgid "Pre shared key"
+msgstr "Kunci pra dibagikan"
+
+msgid "Local Address"
+msgstr "Alamat lokal"
+
+msgid "Decimal numbers separated by \",\" or Base64-encoded strings."
+msgstr "Angka desimal dipisahkan oleh \",\" atau string yang dikodekan base64."
+
+msgid "Camouflage Domain"
+msgstr "Domain kamuflase"
+
+msgid "Camouflage Type"
+msgstr "Jenis kamuflase"
+
+msgid "Transport Layer Encryption"
+msgstr "Enkripsi Lapisan Transportasi"
+
+msgid "Whether or not transport layer encryption is enabled, \"none\" for unencrypted, \"tls\" for using TLS, \"xtls\" for using XTLS."
+msgstr "Apakah enkripsi lapisan transportasi diaktifkan atau tidak, \"tidak ada\" untuk tidak terenkripsi, \"TLS\" untuk menggunakan TLS, \"XTLS\" untuk menggunakan XTLS."
+
+msgid "Original Trojan only supported 'tls', please choose 'tls'."
+msgstr "Trojan asli hanya mendukung 'TLS', silakan pilih 'TLS'."
+
+msgid "Transfer mode"
+msgstr "Mode transfer"
+
+msgid "Do not send server name in ClientHello."
+msgstr "Jangan mengirim nama server di ClientHello."
+
+msgid "Domain"
+msgstr 
+msgid "allowInsecure"
+msgstr "Izinkan Ininsecure"
+
+msgid "Whether unsafe connections are allowed. When checked, Certificate validation will be skipped."
+msgstr "Apakah koneksi yang tidak aman diperbolehkan. Saat diperiksa, validasi sertifikat akan dilewati."
+
+msgid "%s Node Use Type"
+msgstr "%s node penggunaan tipe"
+
+msgid "Set the TUIC proxy server ip address"
+msgstr "Atur alamat IP server proxy TUIC"
+
+msgid "TUIC User Password For Connect Remote Server"
+msgstr "Kata Sandi Pengguna TUIC untuk Connect Remote Server"
+
+msgid "TUIC UserName For Local Socks"
+msgstr "Nama pengguna tuic untuk kaus kaki lokal"
+
+msgid "TUIC Password For Local Socks"
+msgstr "Kata sandi tuic untuk kaus kaki lokal"
+
+msgid "UDP relay mode"
+msgstr "Mode relai UDP"
+
+msgid "Congestion control algorithm"
+msgstr "Algoritma Kontrol Kemacetan"
+
+msgid "Heartbeat interval(second)"
+msgstr "Interval detak jantung (kedua)"
+
+msgid "Timeout for establishing a connection to server(second)"
+msgstr "Batas waktu untuk membuat koneksi ke server (kedua)"
+
+msgid "Garbage collection interval(second)"
+msgstr "Interval Pengumpulan Sampah (Kedua)"
+
+msgid "Garbage collection lifetime(second)"
+msgstr "Koleksi Sampah Seumur Hidup (Kedua)"
+
+msgid "Disable SNI"
+msgstr "Nonaktifkan SNI"
+
+msgid "Enable 0-RTT QUIC handshake"
+msgstr "Aktifkan jabat tangan quic 0-rtt"
+
+msgid "TUIC send window"
+msgstr "Tuic mengirim jendela"
+
+msgid "TUIC receive window"
+msgstr "Tuic Receed Window"
+
+msgid "TUIC Maximum packet size the socks5 server can receive from external, in bytes"
+msgstr "Ukuran paket maksimum tuic yang dapat diterima server Socks5 dari eksternal, dalam byte"
+
+msgid "Set if the listening socket should be dual-stack"
+msgstr "Atur jika soket mendengarkan harus dual-stack"
+
+msgid "<br />none: default, no masquerade, data sent is packets with no characteristics.<br />srtp: disguised as an SRTP packet, it will be recognized as video call data (such as FaceTime).<br />utp: packets disguised as uTP will be recognized as bittorrent downloaded data.<br />wechat-video: packets disguised as WeChat video calls.<br />dtls: disguised as DTLS 1.2 packet.<br />wireguard: disguised as a WireGuard packet. (not really WireGuard protocol)<br />dns: Disguising traffic as DNS requests."
+msgstr "<BR /> Tidak ada: default, tidak ada masquerade, data yang dikirim adalah paket tanpa karakteristik. <BR /> SRTP: Disguised sebagai paket SRTP, itu akan diakui sebagai data panggilan video (seperti FaceTime). <BR /> Paket yang disamarkan sebagai UTP akan diakui sebagai data yang diunduh oleh BitTorrent. /> DTLS: Disguised sebagai paket DTLS 1.2. <BR /> Wireguard: Diseguare sebagai paket Wireguard. (tidak benar -benar protokol Wireguard) <BR /> DNS: Menyamarkan lalu lintas sebagai permintaan DNS."
+
+msgid "Use it together with the DNS disguised type. You can fill in any domain."
+msgstr "Gunakan bersama dengan tipe DNS yang disamarkan. Anda dapat mengisi domain apa pun."
+
+msgid "A legal file path. This file must not exist before running."
+msgstr "Jalur file hukum. File ini tidak boleh ada sebelum berjalan."
+
+msgid "Auth"
+msgstr "Auth"
+
+msgid "Socks for authentication"
+msgstr "Kaus kaki untuk otentikasi"
+
+msgid "Socks protocol authentication, support anonymous and password."
+msgstr "Otentikasi Protokol Socks, Dukung Anonim dan Kata Sandi."
+
+msgid "anonymous"
+msgstr "anonim"
+
+msgid "User Password"
+msgstr "Kata Sandi Pengguna"
+
+msgid "Username and Password must be used together!"
+msgstr "Nama pengguna dan kata sandi harus digunakan bersama!"
+
+msgid "Node Number"
+msgstr "Nomor simpul"
+
+msgid "You can only set up a maximum of %s nodes for the time being, Used for access control."
+msgstr "Anda hanya dapat mengatur node maksimum %S untuk saat ini, digunakan untuk kontrol akses."
+
+msgid "Firewall tools"
+msgstr "Alat Firewall"
+
+msgid "IPv6 TProxy"
+msgstr "Ipv6 tproxy"
+
+msgid "Experimental feature. Make sure that your node supports IPv6."
+msgstr "Fitur eksperimental. Pastikan simpul Anda mendukung IPv6."
+
+msgid "Status info"
+msgstr "Info status"
+
+msgid "Big icon"
+msgstr "Ikon Besar"
+
+msgid "Show node check"
+msgstr "Tampilkan pemeriksaan simpul"
+
+msgid "Show Show IP111"
+msgstr "Tampilkan Tampilkan IP111"
+
+msgid "Destination protocol"
+msgstr "Protokol tujuan"
+
+msgid "Destination address"
+msgstr "Alamat tujuan"
+
+msgid "Destination port"
+msgstr "Port tujuan"
+
+msgid "Whether to receive PROXY protocol, when this node want to be fallback or forwarded by proxy, it must be enable, otherwise it cannot be used."
+msgstr "Apakah akan menerima protokol proxy, ketika simpul ini ingin mundur atau diteruskan oleh proxy, itu harus diaktifkan, jika tidak, ia tidak dapat digunakan."
+
+msgid "outbound node"
+msgstr "node keluar"
+
+msgid "Custom Socks"
+msgstr "Kaus kaki khusus"
+
+msgid "Custom HTTP"
+msgstr "Http khusus"
+
+msgid "Custom Interface"
+msgstr "Antarmuka khusus"
+
+msgid "Interface"
+msgstr "Antarmuka"
+
+msgid "Bind Local"
+msgstr "Mengikat lokal"
+
+msgid "When selected, it can only be accessed localhost."
+msgstr "Saat dipilih, itu hanya dapat diakses localhost."
+
+msgid "Accept LAN Access"
+msgstr "Terima akses LAN"
+
+msgid "When selected, it can accessed lan , this will not be safe!"
+msgstr "Saat dipilih, dapat diakses LAN, ini tidak akan aman!"
+
+msgid "Enable Remote"
+msgstr "Aktifkan remote"
+
+msgid "You can forward to Nginx/Caddy/V2ray/Xray WebSocket and more."
+msgstr "Anda dapat meneruskan ke Websocket Nginx/Caddy/V2Ray/Xray dan banyak lagi."
+
+msgid "Remote Address"
+msgstr "Alamat jarak jauh"
+
+msgid "Remote Port"
+msgstr "Port jarak jauh"
+
+msgid "as:"
+msgstr "sebagai:"
+
+msgid "Public key absolute path"
+msgstr "Jalur absolut kunci publik"
+
+msgid "Private key absolute path"
+msgstr "Jalur absolut kunci pribadi"
+
+msgid "Can't find this file!"
+msgstr "Tidak dapat menemukan file ini!"
+
+msgid "Public key and Private key path can not be empty!"
+msgstr "Kunci publik dan jalur kunci pribadi tidak bisa kosong!"
+
+msgid "Server-Side"
+msgstr "Sisi server"
+
+msgid "Server Config"
+msgstr "Konfigurasi server"
+
+msgid "Users Manager"
+msgstr "Manajer Pengguna"
+
+msgid "Logs"
+msgstr "Log"
+
+msgid "Log"
+msgstr "Log"
+
+msgid "%s Node Log"
+msgstr "%S node log"
+
+msgid "Log Level"
+msgstr "Level log"
+
+msgid "Advanced log feature"
+msgstr "Fitur log canggih"
+
+msgid "For professionals only."
+msgstr "Hanya untuk profesional."
+
+msgid "Persist log file directory"
+msgstr "Direktori File Log bertahan"
+
+msgid "The path to the directory used to store persist log files, the \"/\" at the end can be omitted. Leave it blank to disable this feature."
+msgstr "Jalur ke direktori yang digunakan untuk menyimpan file log bertahan, \"/\" di bagian akhir dapat dihilangkan. Biarkan kosong untuk menonaktifkan fitur ini."
+
+msgid "Logging to system log"
+msgstr "Logging ke log sistem"
+
+msgid "Logging to the system log for more advanced functions. For example, send logs to a dedicated log server."
+msgstr "Masuk ke log sistem untuk fungsi yang lebih canggih. Misalnya, kirim log ke server log khusus."
+
+msgid "Log Event Filter"
+msgstr "Filter Acara Log"
+
+msgid "Support regular expression."
+msgstr "Mendukung ekspresi reguler."
+
+msgid "Shell Command"
+msgstr "Perintah Shell"
+
+msgid "Shell command to execute, replace log content with %s."
+msgstr "Perintah shell untuk dieksekusi, ganti konten log dengan %s."
+
+msgid "Not enabled log"
+msgstr "Tidak diaktifkan log"
+
+msgid "It is recommended to disable logging during regular use to reduce system overhead."
+msgstr "Disarankan untuk menonaktifkan penebangan selama penggunaan rutin untuk mengurangi overhead sistem."
+
+msgid "UDP Forward"
+msgstr "UDP maju"
+
+msgid "DNS Settings"
+msgstr "Pengaturan DNS"
+
+msgid "Null"
+msgstr "Batal"
+
+msgid "You did not fill in the %s path. Please save and apply then update manually."
+msgstr "Anda tidak mengisi jalur %S. Harap simpan dan terapkan lalu perbarui secara manual."
+
+msgid "Not installed %s, Can't unzip!"
+msgstr "Tidak diinstal %s, tidak bisa unzip!"
+
+msgid "Can't determine ARCH, or ARCH not supported."
+msgstr "Tidak dapat menentukan lengkungan, atau lengkungan tidak didukung."
+
+msgid "Get remote version info failed."
+msgstr "Dapatkan info versi jarak jauh gagal."
+
+msgid "New version found, but failed to get new version download url."
+msgstr "Versi baru ditemukan, tetapi gagal mendapatkan URL unduhan versi baru."
+
+msgid "Download url is required."
+msgstr "Unduh URL diperlukan."
+
+msgid "File download failed or timed out: %s"
+msgstr "Unduhan file gagal atau diatur waktu: %s"
+
+msgid "File path required."
+msgstr "Diperlukan jalur file."
+
+msgid "%s not enough space."
+msgstr "%s tidak cukup ruang."
+
+msgid "Can't find client in file: %s"
+msgstr "Tidak dapat menemukan klien dalam file: %s"
+
+msgid "Client file is required."
+msgstr "File klien diperlukan."
+
+msgid "The client file is not suitable for current device."
+msgstr "File klien tidak cocok untuk perangkat saat ini."
+
+msgid "Can't move new file to path: %s"
+msgstr "Tidak dapat memindahkan file baru ke jalur: %s"
+
+msgid "An XHttpObject in JSON format, used for sharing."
+msgstr "XHTTPObject dalam format JSON, digunakan untuk berbagi."
+
+msgid "Enable Mux.Cool"
+msgstr "Aktifkan mux.cool"
+
+msgid "Mux concurrency"
+msgstr "Konkurensi mux"
+
+msgid "XUDP Mux concurrency"
+msgstr "KONSURENSI XUDP MUX"
+
+msgid "Padding"
+msgstr "Lapisan"
+
+msgid "Enable early data"
+msgstr "Aktifkan data awal"
+
+msgid "Early data length"
+msgstr "Panjang data awal"
+
+msgid "Early data header name"
+msgstr "Nama Header Data Awal"
+
+msgid "Recommended value: Sec-WebSocket-Protocol"
+msgstr "Nilai yang Direkomendasikan: Sec-Websocket-Protocol"
+
+msgid "Health check"
+msgstr "Pemeriksaan kesehatan"
+
+msgid "Health check timeout"
+msgstr "Batas waktu pemeriksaan kesehatan"
+
+msgid "Permit without stream"
+msgstr "Izin tanpa aliran"
+
+msgid "Initial Windows Size"
+msgstr "Ukuran Windows Awal"
+
+msgid "Excluded Domains"
+msgstr "Domain yang dikecualikan"
+
+msgid "If the traffic sniffing result is in this list, the destination address will not be overridden."
+msgstr "Jika hasil sniffing lalu lintas ada dalam daftar ini, alamat tujuan tidak akan diganti."
+
+msgid "Buffer Size"
+msgstr "Ukuran penyangga"
+
+msgid "Buffer size for every connection (kB)"
+msgstr "Ukuran buffer untuk setiap koneksi (KB)"
+
+msgid "Handshake Timeout"
+msgstr "Batas waktu jabat tangan"
+
+msgid "Idle Timeout"
+msgstr "Timeout idle"
+
+msgid "Hop Interval"
+msgstr "Hop Interval"
+
+msgid "HeartbeatPeriod(second)"
+msgstr "Heartbeatperiod (kedua)"
+
+msgid "Override the connection destination address"
+msgstr "Mengesampingkan alamat tujuan koneksi"
+
+msgid "Handshake Server"
+msgstr "Server Handshake"
+
+msgid "Handshake Server Port"
+msgstr "Port Server Handshake"
+
+msgid "Override the connection destination address with the sniffed domain.<br />Otherwise use sniffed domain for routing only.<br />If using shunt nodes, configure the domain shunt rules correctly."
+msgstr "Menggantikan alamat tujuan koneksi dengan domain sniffed. <BR /> Jika tidak, gunakan domain sniff untuk perutean saja. <BR /> Jika menggunakan node shunt, konfigurasikan aturan shunt domain dengan benar."
+
+msgid "Override the connection destination address with the sniffed domain.<br />When enabled, traffic will match only by domain, ignoring IP rules.<br />If using shunt nodes, configure the domain shunt rules correctly."
+msgstr "Mengamati alamat tujuan koneksi dengan domain sniffed. <BR /> Saat diaktifkan, lalu lintas hanya cocok dengan domain, mengabaikan aturan IP. <BR /> Jika menggunakan node shunt, konfigurasikan aturan shunt domain dengan benar."
+
+msgid "Protocol parameter. Will waste traffic randomly if enabled."
+msgstr "Parameter Protokol. Akan membuang lalu lintas secara acak jika diaktifkan."
+
+msgid "Protocol parameter. Enable length block encryption."
+msgstr "Parameter Protokol. Aktifkan enkripsi blok panjang."
+
+msgid "ECH Config"
+msgstr "ECH Config"
+
+msgid "ECH Key"
+msgstr "Kunci ech"
+
+msgid "ECH Query Policy"
+msgstr "Kebijakan kueri ECH"
+
+msgid "Controls the policy used when performing DNS queries for ECH configuration."
+msgstr "Mengontrol kebijakan yang digunakan saat melakukan kueri DNS untuk konfigurasi ECH."
+
+msgid "Enable Multipath TCP, need to be enabled in both server and client configuration."
+msgstr "Aktifkan Multipath TCP, perlu diaktifkan dalam konfigurasi server dan klien."
+
+msgid "Fragment"
+msgstr "Fragmen"
+
+msgid "TCP fragments, which can deceive the censorship system in some cases, such as bypassing SNI blacklists."
+msgstr "Fragmen TCP, yang dapat menipu sistem sensor dalam beberapa kasus, seperti melewati daftar hitam SNI."
+
+msgid "Fragment Packets"
+msgstr "Paket fragmen"
+
+msgid "\"1-3\" is for segmentation at TCP layer, applying to the beginning 1 to 3 data writes by the client. \"tlshello\" is for TLS client hello packet fragmentation."
+msgstr "\"1-3\" adalah untuk segmentasi di lapisan TCP, berlaku untuk awal 1 hingga 3 data yang ditulis oleh klien. \"Tlshello\" adalah untuk klien TLS Hello Packet Fragmmentasi."
+
+msgid "Fragment Length"
+msgstr "Panjang fragmen"
+
+msgid "Fragmented packet length (byte)"
+msgstr "Panjang paket terfragmentasi (byte)"
+
+msgid "Fragment Interval"
+msgstr "Interval fragmen"
+
+msgid "Fragmentation interval (ms)"
+msgstr "Interval fragmentasi (MS)"
+
+msgid "Split handshake data into multiple TLS records for better censorship evasion. Low overhead. Recommended to enable first."
+msgstr "Data handshake terpisah ke dalam beberapa catatan TLS untuk penghindaran sensor yang lebih baik. Overhead rendah. Disarankan untuk mengaktifkan terlebih dahulu."
+
+msgid "Split handshake into multiple TCP segments. Enhances obfuscation. May increase delay. Use only if needed."
+msgstr "Split handshake menjadi beberapa segmen TCP. Meningkatkan kebingungan. Dapat meningkatkan penundaan. Gunakan hanya jika diperlukan."
+
+msgid "Noise"
+msgstr "Kebisingan"
+
+msgid "UDP noise, Under some circumstances it can bypass some UDP based protocol restrictions."
+msgstr "Kebisingan UDP, dalam beberapa keadaan dapat melewati beberapa pembatasan protokol berbasis UDP."
+
+msgid "To send noise packets, select \"Noise\" in Xray Settings."
+msgstr "Untuk mengirim paket kebisingan, pilih \"noise\" di pengaturan XRAY."
+
+msgid "Xray Noise Packets"
+msgstr "Paket kebisingan xray"
+
+msgid "Packet"
+msgstr "Paket"
+
+msgid "Delay (ms)"
+msgstr "Delay (MS)"
+
+msgid "If is domain name, The requested domain name will be resolved to IP before connect."
+msgstr "Jika nama domain, nama domain yang diminta akan diselesaikan ke IP sebelum terhubung."
+
+msgid "Chain Proxy"
+msgstr "Proxy rantai"
+
+msgid "Landing Node"
+msgstr "Node Pendaratan"
+
+msgid "Only support a layer of proxy."
+msgstr "Hanya mendukung lapisan proxy."
+
+msgid "Only work with using the %s node."
+msgstr "Hanya bekerja dengan menggunakan simpul %S."
+
+msgid "Set the default domain resolution strategy for the sing-box node."
+msgstr "Atur strategi resolusi domain default untuk node Sing-Box."
+
+msgid "Total Lines"
+msgstr "Total Lines"
+
+msgid "Read List"
+msgstr "Daftar Baca"
+
+msgid "Maintain"
+msgstr "Menjaga"
+
+msgid "Backup and Restore"
+msgstr "Cadangan dan Pulihkan"
+
+msgid "Backup or Restore Client and Server Configurations."
+msgstr "Cadangan atau kembalikan konfigurasi klien dan server."
+
+msgid "Note: Restoring configurations across different versions may cause compatibility issues."
+msgstr "Catatan: Memulihkan konfigurasi di berbagai versi dapat menyebabkan masalah kompatibilitas."
+
+msgid "Create Backup File"
+msgstr "Buat file cadangan"
+
+msgid "Restore Backup File"
+msgstr "Kembalikan file cadangan"
+
+msgid "DL Backup"
+msgstr "DL Backup"
+
+msgid "RST Backup"
+msgstr "Cadangan pertama"
+
+msgid "UL Restore"
+msgstr "Ul Restore"
+
+msgid "CLOSE WIN"
+msgstr "Tutup menang"
+
+msgid "Restore to default configuration"
+msgstr "Kembalikan ke konfigurasi default"
+
+msgid "Do Reset"
+msgstr "Lakukan reset"
+
+msgid "Please select a file first."
+msgstr "Pilih file terlebih dahulu."
+
+msgid "Invalid file type. Please upload a .tar.gz file."
+msgstr "Jenis file tidak valid. Harap unggah file .tar.gz."
+
+msgid "File size exceeds 10MB limit."
+msgstr 
+msgid "Do you want to restore the client to default settings?"
+msgstr "Apakah Anda ingin mengembalikan klien ke pengaturan default?"
+
+msgid "Are you sure you want to restore the client to default settings?"
+msgstr "Anda yakin ingin mengembalikan klien ke pengaturan default?"
+
+msgid "Settings have been successfully saved and applied!"
+msgstr "Pengaturan telah berhasil disimpan dan diterapkan!"
+
+msgid "_urltest"
+msgstr "_urltest"
+
+msgid "URLTest node list"
+msgstr "Daftar Node Urltest"
+
+msgid "List of nodes to test, <a target='_blank' href='https://sing-box.sagernet.org/configuration/outbound/urltest'>document</a>"
+msgstr "Daftar node yang akan diuji, <target = '_ blank' href = 'https: //sing-box.sagernet.org/configuration/outbound/urltest'> dokumen </a>"
+
+msgid "Test interval"
+msgstr "Interval tes"
+
+msgid "Test interval must be less or equal than idle timeout."
+msgstr "Interval tes harus kurang atau sama dari waktu habis."
+
+msgid "Test tolerance"
+msgstr "Toleransi Tes"
+
+msgid "The test tolerance in milliseconds."
+msgstr "Toleransi tes dalam milidetik."
+
+msgid "Idle timeout"
+msgstr "Timeout idle"
+
+msgid "The idle timeout."
+msgstr "Timeout idle."
+
+msgid "Interrupt existing connections"
+msgstr "Mengganggu koneksi yang ada"
+
+msgid "Interrupt existing connections when the selected outbound has changed."
+msgstr "Mengganggu koneksi yang ada ketika keluar yang dipilih telah berubah."
+
+msgid "Port hopping range"
+msgstr "Port Hopping Range"
+
+msgid "Format as 1000:2000 or 1000-2000 Multiple groups are separated by commas (,)."
+msgstr "Format sebagai 1000: 2000 atau 1000-2000 beberapa kelompok dipisahkan oleh koma (,)."
+
+msgid "Use Custom Config"
+msgstr "Gunakan konfigurasi khusus"
+
+msgid "Custom Config"
+msgstr "Konfigurasi khusus"
+
+msgid "Must be JSON text!"
+msgstr "Pasti teks JSON!"
+
+msgid "Geo View"
+msgstr "Tampilan Geo"
+
+msgid "Query"
+msgstr "Pertanyaan"
+
+msgid "Querying"
+msgstr "Menanyakan"
+
+msgid "Please enter query content!"
+msgstr "Harap masukkan konten kueri!"
+
+msgid "No results were found!"
+msgstr "Tidak ada hasil yang ditemukan!"
+
+msgid "Domain/IP Query"
+msgstr "Kueri Domain/IP"
+
+msgid "GeoIP/Geosite Query"
+msgstr "Kueri Geoip/Geosite"
+
+msgid "Enter a domain or IP to query the Geo rule list they belong to."
+msgstr "Masukkan domain atau IP untuk menanyakan daftar aturan geo yang mereka miliki."
+
+msgid "Enter a GeoIP or Geosite to extract the domains/IPs they contain. Format: geoip:cn or geosite:gfw"
+msgstr "Masukkan Geoip atau Geosite untuk mengekstrak domain/IP yang dikandungnya. Format: Geoip: CN atau Geosite: GFW"
+
+msgid "Tips:"
+msgstr "Tips:"
+
+msgid "By entering a domain or IP, you can query the Geo rule list they belong to."
+msgstr "Dengan memasukkan domain atau IP, Anda dapat menanyakan daftar aturan geo yang mereka miliki."
+
+msgid "By entering a GeoIP or Geosite, you can extract the domains/IPs they contain."
+msgstr "Dengan memasukkan geoip atau geosite, Anda dapat mengekstrak domain/IP yang dikandungnya."
+
+msgid "Use the GeoIP/Geosite query function to verify if the entered Geo rules are correct."
+msgstr "Gunakan fungsi kueri GEOIP/Geosite untuk memverifikasi apakah aturan GEO yang dimasukkan benar."
