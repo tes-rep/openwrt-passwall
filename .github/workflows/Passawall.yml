@@ -53,7 +53,7 @@ jobs:
           make package/luci-app-passwall/compile -j$(nproc) V=s
 
       - name: Upload IPK artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: passwall-ipk
           path: |
