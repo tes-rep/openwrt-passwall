@@ -48,7 +48,7 @@ jobs:
         run: |
           cd sdk
           echo "CONFIG_PACKAGE_luci-app-passwall=m" > .config
-          echo "CONFIG_PACKAGE_luci-i18n-luci-app-passwall-id=m" >> .config
+          echo "CONFIG_PACKAGE_luci-i18n-luci-app-passwall-en=m" >> .config
           make defconfig
 
       - name: Compile Passwall
